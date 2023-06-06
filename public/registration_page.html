@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  	<title>Registration</title>
+  	<link rel="stylesheet" href="../src/css/log-reg-style.css">
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+  	</head>
+  	<body>
+  		<div class="container">
+  			<h1>Реєстрація</h1>
+  			<form method="post">
+  				<div class="field">
+  					<input id="name" type="text" required>
+  					<label>Ім'я</label>
+  				</div>
+  				<div class="field">
+  					<input id="mail" type="email" required>
+  					<label>Пошта</label>
+  				</div>
+  				<div class="field">
+  					<input id="password" type="password" required>
+  					<label>Пароль</label>
+  				</div>
+  				<div class="field">
+  					<input id="confirmPass" type="password" required>
+  					<label>Підтвердіть пароль</label>
+  				</div>
+  				<input id="submit" class="submit" type="submit" value="Зареєструватись">
+  				<div class="signup">
+  					<a class="signup-link" href="login_page.html">Увійти</a>
+  				</div>
+  			</form>
+  		</div>
+		<script src="../src/scripts/reg.js"></script>
+  	</body>
+</html>

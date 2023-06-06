@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	font-family: 'Vollkorn', serif;
+}
+
+.header {
+    position: relative;
+	background-image: url(../images/bg.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.container-line {
+	margin: 0 0 0 150px;
+}
+
+.header-line {
+	padding-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	gap: 25px;
+}
+
+.nav-item {
+	color: #000;
+	text-decoration: none;
+	font-weight: 900;
+	margin-right: 25px;
+	font-size: 20px;
+
+	transition: color 0.2s linear;
+}
+
+.nav-item:hover {
+	color: #7D0707;
+}
+
+.weather-table {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 15px;
+    top: 175px;
+}
